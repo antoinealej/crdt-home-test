@@ -45,7 +45,7 @@ Create a frontend application using for example ReactJs to visualize the diction
 
 # Time spent
 Thursday 8
-9:03pm — 10:20pm (1 hour 17 minutes)
-10:54am — 1:03pm (2 hours 9 minutes)
+- 9:03pm — 10:20pm (1 hour 17 minutes)
+- 10:54am — 1:03pm (2 hours 9 minutes)
 
 Total: 3 hours 26 minutes
