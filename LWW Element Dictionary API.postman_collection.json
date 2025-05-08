@@ -1,0 +1,166 @@
+{
+	"info": {
+		"_postman_id": "85553abe-8805-42b5-835b-9561bcb4a870",
+		"name": "LWW Element Dictionary API",
+		"description": "Collection to test LWW-Element-Dictionary API endpoints.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "40548359"
+	},
+	"item": [
+		{
+			"name": "Add Key-Value Pair",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"key\": \"key3\",\n    \"value\": \"value3\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/dictionary/add",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"dictionary",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Lookup",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/dictionary/lookup",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"dictionary",
+						"lookup"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Lookup Key",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/dictionary/lookup/key3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"dictionary",
+						"lookup",
+						"key3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Key-Value Pair",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"key\": \"key1\",\n    \"value\": \"value2\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/dictionary/update",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"dictionary",
+						"update"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Remove Key",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/dictionary/remove/key1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"dictionary",
+						"remove",
+						"key1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Merge Dictionaries",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"dictionary\": [\n        {\n            \"key\": \"key2\",\n            \"value\": \"value3\",\n            \"timestamp\": 1624450000\n        }\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/dictionary/merge",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"dictionary",
+						"merge"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
