@@ -44,7 +44,7 @@ Then adapt the endpoints for the items management like `[GET] /api/dictionary/:i
 Create a frontend application using for example ReactJs to visualize the dictionaries and interact with it.
 
 # Time spent
-Thursday 8
+Thursday 8 May 2025
 - 9:03pm — 10:20pm (1 hour 17 minutes)
 - 10:54am — 1:03pm (2 hours 9 minutes)
 
